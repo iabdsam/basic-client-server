@@ -29,18 +29,18 @@ int main() {
     int sockID2 = accept(sockID1, (struct sockaddr *) &client_addr, &len);
     printf("Accepted a connection\n");
 
-    char msg[50] = "Hello Worldd";
-    int countr, counts;
+    char msg[50];
+    int countR, countS;
 
     while(strcmp(msg,"Close\n")) {
         printf("To Client : ");
         fgets(msg, 50, stdin);
-        counts = send(sockID2, msg, 50, 0);
+        countS = send(sockID2, msg, 50, 0);
         if(!strcmp(msg,"Close\n")) {
             break;
         }
         printf("From Client : ");
-        countr = recv(sockID2, msg, 50, 0);
+        countR = recv(sockID2, msg, 50, 0);
         printf("%s", msg);
     }
 
