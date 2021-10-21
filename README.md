@@ -1,5 +1,7 @@
 # basic-client-server
 
+Program on basic client-server connection. This is intended to whomever it may be useful. If you use this somewhere else, proper reference is appreciated.
+
 ## Compile and run the server.c and client.c
 ### Remember to run Server before client!
 
