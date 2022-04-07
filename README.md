@@ -1,10 +1,16 @@
 # basic-client-server
 
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+"ashfuja"
+
 Program on basic client-server connection. This is intended to whomever it may be useful. If you use this somewhere else, proper reference is appreciated.
 
 ## Compile and run the server.c and client.c
 ### Remember to run Server before client!
+
+"adfwehjgsbd"
 
 ![Screenshot from 2021-10-21 08-41-49](https://user-images.githubusercontent.com/92433908/138205569-d45d2a75-3074-4f87-b18d-fa624a034a65.png)
 
